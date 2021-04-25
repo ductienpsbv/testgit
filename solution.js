@@ -24,7 +24,7 @@
             outb.push(j+1);
             j++; // không cần h nữa vì chỉ còn 1 tủ thì cứ mở hết các ngăn của nó
         }
-    } 
+    } //merge to dev
     console.log(outa, outb)
 }
 solution([1,2,3,4,5],[6,4,3,2,1])
