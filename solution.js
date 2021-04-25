@@ -1,4 +1,4 @@
-solution = (a,b) => {
+﻿solution = (a,b) => {
     let h=0,ha=0,hb=0,i=0,j=0, outa=[], outb = []; //init
     while(i < a.length || j < b.length) // chua mo het ca 2 tu
     {
@@ -24,7 +24,7 @@ solution = (a,b) => {
             outb.push(j+1);
             j++; // không cần h nữa vì chỉ còn 1 tủ thì cứ mở hết các ngăn của nó
         }
-    }
+    } 
     console.log(outa, outb)
 }
 solution([1,2,3,4,5],[6,4,3,2,1])
